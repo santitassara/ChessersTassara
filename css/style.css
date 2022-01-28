@@ -1,0 +1,227 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #e5e2e2; }
+
+header {
+  background-color: black; }
+
+.titulo1 {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.align {
+  flex-grow: 0; }
+
+.imgHeader {
+  height: 120px;
+  padding-bottom: 10px;
+  border-radius: 50px; }
+
+.move {
+  padding: 5px;
+  list-style: none;
+  color: white;
+  font-size: 23px; }
+
+.color {
+  color: white; }
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black; }
+
+main {
+  background-color: blanchedalmond; }
+
+.tituloI {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bolder; }
+
+.textoI {
+  font-size: 25px; }
+
+.tituloN {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 12px; }
+
+.titulo8 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bolder; }
+
+.imgMvl {
+  height: 500px;
+  width: 900px; }
+
+.resolucion {
+  display: none; }
+
+iframe {
+  height: 422px;
+  width: 400px; }
+
+.footer {
+  background-color: black;
+  height: 100px; }
+
+iframe {
+  height: 500px;
+  width: 300px; }
+
+.linksFooterPs {
+  height: 100px; }
+
+.linksFooterPs img {
+  height: 30px; }
+
+.mainC {
+  height: 800px; }
+
+.tamañoInput {
+  width: 600px; }
+
+.largoInput {
+  height: 500px; }
+
+.tamañoH2 {
+  font-size: 40px; }
+
+.background {
+  height: 800px; }
+
+.tamañoJu {
+  width: 850px;
+  height: 600px; }
+
+.resolucionJ {
+  display: none; }
+
+.map1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 850px; }
+
+.TituloQS {
+  font-size: 50px; }
+
+.tamañoTQ {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; }
+
+.mainT {
+  background-color: white; }
+
+.tamañoT {
+  height: 200px; }
+
+.vinilT {
+  margin-top: 30px; }
+
+.tripleT {
+  margin-top: 30px; }
+
+.maderaT {
+  margin-top: 50px; }
+
+.imantadoT {
+  margin-top: 50px;
+  margin-bottom: 10px; }
+
+.linkC {
+  font-size: 30px;
+  border: solid 2px;
+  color: black;
+  padding: 5px;
+  border-radius: 20px; }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: none; }
+  .imgHeader {
+    height: 100px; }
+  .imgMvl {
+    height: 400px;
+    width: 550px; }
+  .tamañoAV {
+    height: 20px; }
+  .links2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .tamañoJu {
+    height: 600px; } }
+
+@media (max-width: 575px) {
+  .section-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+  .links2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .imgMvl {
+    height: 200px;
+    width: 350px; } }
+
+@media (max-width: 425px) {
+  .section-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .imgMvl {
+    height: 200px;
+    width: 350px; }
+  .links2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .tamañoJu {
+    display: none; }
+  .resolucionJ {
+    display: inline; }
+  .map1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 350px; } }
+
+@media (max-width: 375px) {
+  .move {
+    font-size: 17px; }
+  .tituloI {
+    font-size: 30px;
+    font-weight: bolder; }
+  .titulo8 {
+    font-size: 30px;
+    font-weight: 30px; }
+  .imgMvl {
+    height: 200px;
+    width: 300px; }
+  .tamañoAV {
+    height: 15px;
+    width: 20px; }
+  .resolucion {
+    display: inline; }
+  iframe {
+    display: none; }
+  .tamañoT {
+    height: 150px; }
+  .tamañoTQ {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center; } }
