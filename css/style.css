@@ -41,17 +41,22 @@ main {
   background-color: blanchedalmond; }
 
 .tituloI {
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Rubik Mono One', sans-serif;
   margin-top: 50px;
   font-size: 50px;
   font-weight: bolder; }
 
 .textoI {
+  margin-top: 50px;
   font-size: 25px; }
 
 .tituloN {
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Rubik Mono One', sans-serif;
   font-size: 40px;
   font-weight: bolder;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 12px; }
 
 .titulo8 {
