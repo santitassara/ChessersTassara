@@ -22,8 +22,32 @@ header {
   padding-bottom: 10px;
   border-radius: 50px; }
 
+.desplegable {
+  position: absolute;
+  display: none; }
+
+.juga:hover {
+  color: yellow; }
+  .juga:hover .desplegable {
+    width: 140px;
+    display: block;
+    background-color: black;
+    list-style: none;
+    padding: 10px;
+    /* box-shadow: 3px 3px blanchedalmond; */
+    border: solid 1px white; }
+    .juga:hover .desplegable .list {
+      padding: 5px;
+      margin-top: 10px;
+      text-align: start; }
+    .juga:hover .desplegable .subLi {
+      font-size: 20px;
+      color: white; }
+    .juga:hover .desplegable .subLi:hover {
+      color: #0077ff; }
+
 .move {
-  padding: 5px;
+  padding: 10px;
   list-style: none;
   color: white;
   font-size: 23px; }
@@ -60,7 +84,9 @@ main {
   margin-bottom: 12px; }
 
 .titulo8 {
-  font-size: 50px;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 40px;
   margin-top: 50px;
   margin-bottom: 50px;
   font-weight: bolder; }
@@ -100,7 +126,10 @@ iframe {
   height: 500px; }
 
 .tamañoH2 {
-  font-size: 40px; }
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Rubik Mono One', sans-serif; }
 
 .background {
   height: 800px; }
@@ -133,17 +162,22 @@ iframe {
 .tamañoT {
   height: 200px; }
 
+.tituloT {
+  margin-bottom: 80px;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Rubik Mono One', sans-serif; }
+
 .vinilT {
-  margin-top: 30px; }
-
-.tripleT {
-  margin-top: 30px; }
-
-.maderaT {
   margin-top: 50px; }
 
+.tripleT {
+  margin-top: 50px; }
+
+.maderaT {
+  margin-top: 80px; }
+
 .imantadoT {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 10px; }
 
 .linkC {
@@ -164,6 +198,8 @@ iframe {
     width: 550px; }
   .tamañoAV {
     height: 20px; }
+  .aInput {
+    width: 80px; }
   .links2 {
     display: flex;
     flex-direction: row;
@@ -211,6 +247,8 @@ iframe {
   .tituloI {
     font-size: 30px;
     font-weight: bolder; }
+  .tamañoH2 {
+    font-size: 30px; }
   .titulo8 {
     font-size: 30px;
     font-weight: 30px; }

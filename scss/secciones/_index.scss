@@ -19,18 +19,60 @@ header{
     padding-bottom: 10px;
     border-radius: 50px;
 }
+  .desplegable{
+            position: absolute;
+            display: none;
+        }
+        
+.juga:hover {    
+        color: yellow;
+       .desplegable{ 
+        width: 140px;
+        display:block;
+        background-color: black;
+        list-style: none;
+        padding: 10px;
+    /* box-shadow: 3px 3px blanchedalmond; */
+    border:solid 1px white;
+         
+        .list{
+            
+            padding: 5px;
+            margin-top: 10px;
+            text-align: start;
+        }
+        .subLi{
+            font-size: 20px;
+            color: white;
+            
+            
+            
+        }
+        .subLi:hover{
+                color: rgb(0, 119, 255);
+            }
+        }       
+         
+    }
+    
 
 .move{
-    padding: 5px;
+    padding: 10px;
     list-style: none;
     color: white;
     font-size: 23px;
+        
+  
+
     
+
 }
 
 .color{
     color: white;
 }
+
+
 
 a{
     text-decoration: none;
@@ -65,7 +107,9 @@ main{
     margin-bottom: 12px;
 }
 .titulo8{
-    font-size: 50px ;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40px ;
     margin-top: 50px;
     margin-bottom: 50px;
     font-weight: bolder;

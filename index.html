@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Link de CSS -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Link fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&family=Rubik+Mono+One&display=swap" rel="stylesheet"> 
@@ -44,11 +46,18 @@
                         </button>
                         <div class="collapse navbar-collapse text-start align" id="navbarNavAltMarkup">
                             <div class="navbar-nav ">
-                                <a class="move " aria-current="page" href="./index.html">INICIO</a>
-                                <a class="move" href="./contacto.html">CONTACTO</a>
-                                <a class="move" href="./tableros.html">TABLEROS</a>
-                                <a class="move " href="./juga.html">JUGÁ</a>
-                                <a class=" move" href="./quienessomos.html">QUIENES SOMOS</a>
+                                <ul class="navbar-nav ">
+                                   <li> <a class="move " aria-current="page" href="./index.html">INICIO</a></li>
+                                   <li><a class="move" href="./contacto.html">CONTACTO</a></li>
+                                   <li class="juga "><a class="move" href="#">PRODUCTOS</a>
+                                        <ul class="desplegable noentiendo  ">
+                                            <li class="list"><a  href="./tableros.html" class="subLi  ">TABLEROS</a></li>
+                                            <li class="list"><a href="./relojes.html" class="subLi">RELOJES</a></li>    
+                                        </ul>
+                                    </li> 
+                                    <li ><a class="move"  href="./juga.html">JUGÁ</a></li> 
+                                    <li><a class=" move" href="./quienessomos.html">QUIENES SOMOS</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -59,17 +68,10 @@
 
     <main class="container">
         <div class="row text-center">
-            <h2 class="col-sm-12 col-lg-12 tituloI">BIENVENIDOS</h2>
-            <p class="col-sm-12  col-lg-12 textoI"><strong> Bienvenidos a CHESSERS </strong> !!! 
-                donde vas a encontrar las últimas noticias de <a
-                    href="https://www.lichess.org">ajedrez</a> , vas a poder practicar,
-                encontrar tu mejor táctica, estudiar, analizar tus partidas, comprar juegos completos.
-                En fin ,
-
-            </p>
-        </div>
+            
+        
         <div class="text-center">
-            <h2 class="tituloN">Noticias</h2>
+            <h2 class="tituloN">Actualidad y Noticias</h2>
             <div class="d-flex justify-content-center">
                 <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -105,9 +107,10 @@
                 </div>
             </div>
         </div>
+    </div>
         <div class="row">
             <div class="text-center ">
-                <h2 class="col-lg-12 titulo8">Mira Ajedrez en vivo</h2>
+                <h2 class="col-lg-12 titulo8">Ajedrez en vivo</h2>
                 <iframe class="TamañoAV col-lg-12 "
                     src="https://lichess.org/tv/frame?theme=brown&bg=dark" style="width: 400px; height: 444px;"
                     allowtransparency="true" frameborder="0"></iframe>
