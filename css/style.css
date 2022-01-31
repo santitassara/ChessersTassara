@@ -47,7 +47,7 @@ header {
       color: #0077ff; }
 
 .move {
-  padding: 10px;
+  padding-right: 10px;
   list-style: none;
   color: white;
   font-size: 23px; }
@@ -123,7 +123,9 @@ iframe {
   width: 600px; }
 
 .largoInput {
-  height: 500px; }
+  height: 500px;
+  max-height: 500px;
+  min-height: 500px; }
 
 .tamañoH2 {
   margin-top: 20px;
@@ -140,6 +142,16 @@ iframe {
 
 .resolucionJ {
   display: none; }
+
+.tituloJ {
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Rubik Mono One', sans-serif;
+  margin: 30px 0px 30px 0px; }
+
+.tituloP {
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Rubik Mono One', sans-serif;
+  margin: 30px 0px 30px 0px; }
 
 .map1 {
   margin-top: 30px;
@@ -163,9 +175,7 @@ iframe {
   height: 200px; }
 
 .tituloT {
-  margin-bottom: 80px;
-  font-family: 'Josefin Slab', serif;
-  font-family: 'Rubik Mono One', sans-serif; }
+  margin-bottom: 80px; }
 
 .vinilT {
   margin-top: 50px; }
@@ -242,6 +252,10 @@ iframe {
     height: 350px; } }
 
 @media (max-width: 375px) {
+  .mainI {
+    height: 80vh; }
+  .mainJ {
+    height: 80vh; }
   .move {
     font-size: 17px; }
   .tituloI {
@@ -249,6 +263,25 @@ iframe {
     font-weight: bolder; }
   .tamañoH2 {
     font-size: 30px; }
+  .juga .desplegable .list .subLi {
+    font-size: 15px; }
+  .juga:hover .desplegable {
+    width: 100px;
+    display: block;
+    background-color: black;
+    list-style: none;
+    padding: 0px;
+    /* box-shadow: 3px 3px blanchedalmond; */
+    border: solid 1px white; }
+    .juga:hover .desplegable .list {
+      padding: 5px;
+      margin-top: 2px;
+      text-align: start; }
+    .juga:hover .desplegable .subLi {
+      font-size: 15px;
+      color: white; }
+    .juga:hover .desplegable .subLi:hover {
+      color: #0077ff; }
   .titulo8 {
     font-size: 30px;
     font-weight: 30px; }
