@@ -1,0 +1,11 @@
+// MAPA
+$font-sizes: (
+    TituloQS:50px,
+
+);
+
+@each $etiqueta, $tamanio in $font-sizes {
+    .#{$etiqueta} {
+        font-size: $tamanio;
+    }
+}

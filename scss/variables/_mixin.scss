@@ -1,0 +1,9 @@
+@mixin fontStyle ($color,$tamanio,$posicion,$peso){
+    color: $color;
+    font-size: $tamanio;
+    text-align: $posicion;
+    font-weight: $peso;
+    
+
+    
+}

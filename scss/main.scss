@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import "./variables/maps";
+@import "./variables/mixin";
+@import "./variables/extend";
 @import "./variables/tamanios";
 @import "./variables/colores";
 @import "./secciones/index";
