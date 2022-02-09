@@ -1,0 +1,19 @@
+Se agregaron  Keywords a todas las secciones
+   index:"chess, ajedrez, tableros, tableros de ajedrez, gambito de dama, rey, reina, alfil, peon, noticias ajedrez"
+   contacto: "consulta, chess, contacto, contacto de ajedrez, deja tu consulta, email, noticias, informacion, peon, noticias ajedrez"
+   productos{
+      tableros:"juga, practica, ajedrez, juga ajedrez, tableros, tipos de tableros, madera, vinilo,"
+      relojes:"chess, juga, reloj ajedrez, jugar ajedrez, reloj de ajedrez, bandera, entrena, relojes, tiempo" 
+   juga:"juga, practica, ajedrez, juga ajedrez, practica, practica ajedrez, entrena, subi de nivel, mejora tu ajedrez"
+   quienesSomos:"quienes somos, chessers, chess, , nosotros, direccion, ubicanos, donde estamos,"
+Se agrego description a todas las secciones 
+  index:"El sitio de venta y juegos de ajedrez mas grande de toda latinoamerica"
+   contacto: "Contactate con nosotros para recibir las mejores ofertas y noticias de ajedrez. Deja tu mensaje y nos contactaremos"
+   productos{
+      tableros:"conseguí los mejores tableros para jugar al ajedrez en muchas presentaciones"
+      relojes:"conseguí los mejores tableros para jugar al ajedrez en muchas presentaciones" 
+   juga:"Juga y practica en nuestra web , asi vas a mejorar tu tecnica y tu estilo al jugar en tus nuevos tableros"
+   quienesSomos:"Somos CHESSERS el sitio de encuentro de ajedrez ,juego y compra 
+   
+   
+Todos los titulos actualizados "Sitio-Seccion"
