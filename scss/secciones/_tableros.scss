@@ -24,18 +24,26 @@
     }
     
     .vinilT{
-        margin-top: 50px;      
+        margin-top: 50px;     
+        height: 450px;
+        width: 350px;
     }
     .tripleT{
         margin-top: 50px;
+        height: 450px;
+        width: 350px;
     }
     .maderaT{
         margin-top: 80px;
         margin-bottom: 5px;
+        height: 450px;
+        width: 350px;
     }
     .imantadoT{
         margin-top: 80px;
         margin-bottom: 5px;
+        height: 450px;
+        width: 350px;
     }
     .linkC{
         font-size: 30px;
@@ -43,6 +51,10 @@
         color: black;
         padding: 5px;
         border-radius: 20px;
+        box-shadow: 0px 2px 5px 1px;
+        &:hover{
+            background-color: rgb(151, 151, 190);
+        }
     }  
 
 
