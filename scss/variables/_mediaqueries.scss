@@ -73,7 +73,9 @@
 
 
   @media (max-width: 425px){
-
+    .background{
+       height: 500px;
+    }
     .section-flex{
         display: flex;
         flex-direction: row;
@@ -109,7 +111,7 @@
 }
 
 @media (max-width: 375px){
-
+    
     .mainI{
         height: 80vh;
     }
@@ -119,6 +121,13 @@
     .move{
         font-size: 17px;
     
+    }
+    .mainQ{
+        .tamañoTQ{
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
     }
 
     .tituloN{
@@ -204,13 +213,7 @@
         height: 150px;
     }
     
-    .tamañoTQ{
     
-        
-       
-        font-size: 10px;
-        font-weight: bold;
-        text-align: center;
-    }
+    
 
 }  

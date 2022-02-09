@@ -256,6 +256,8 @@ iframe {
     width: 350px; } }
 
 @media (max-width: 425px) {
+  .background {
+    height: 500px; }
   .section-flex {
     display: flex;
     flex-direction: row;
@@ -283,6 +285,10 @@ iframe {
     height: 80vh; }
   .move {
     font-size: 17px; }
+  .mainQ .tamañoTQ {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center; }
   .tituloN {
     font-size: 30px;
     font-weight: bolder; }
@@ -324,8 +330,4 @@ iframe {
   iframe {
     display: none; }
   .tamañoT {
-    height: 150px; }
-  .tamañoTQ {
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center; } }
+    height: 150px; } }
