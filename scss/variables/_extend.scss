@@ -6,3 +6,22 @@ color: white;
 .titulo1{
     @extend %estiloNombre;
 }
+
+%hoverProductos{
+    box-shadow: 0 2px 2px 1px rgba(19, 2, 2, 0.637);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.vinilT:hover{
+
+    @extend %hoverProductos;
+}
+.tripleT:hover{
+    @extend %hoverProductos;
+}
+.maderaT:hover{
+    @extend %hoverProductos;
+}
+.imantadoT:hover{
+    @extend %hoverProductos;
+}

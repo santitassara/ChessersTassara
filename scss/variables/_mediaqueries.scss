@@ -27,6 +27,24 @@
     .tamañoJu{
         height: 600px;
     }
+    
+    .mainT{
+        .tamañoT{
+            width: 300px;
+    }
+
+        .grilla {  
+                grid-auto-columns: 1fr; 
+                grid-auto-rows: 1fr; 
+                grid-template-columns: 1fr; 
+                grid-template-rows: 1fr 1fr; 
+                grid-template-areas: 
+                "."
+                "."; 
+                
+            }
+            
+        }
 
   }
 
@@ -192,3 +210,7 @@
     }
 
 }  
+@media (max-width: 375px){
+    .titulo1{ }
+
+}
