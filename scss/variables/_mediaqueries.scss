@@ -101,6 +101,7 @@
     }
     .resolucionJ{
         display: inline;
+        
     }
 
     .map1{
@@ -167,15 +168,6 @@
     }
     .mainJ{
         height: 80vh;
-         .resolucionJ{
-        margin-bottom: 200px;
-        }
-        .resolucion{
-            display: inline;
-        }
-        iframe{
-            display: none;
-        }
     }
     .move{
         font-size: 17px;
@@ -203,6 +195,34 @@
         font-size: 30px;
     }
     .juga{
+        &:hover {    
+        
+            .desplegable{ 
+             width: 100px;
+             display:block;
+             background-color: black;
+             list-style: none;
+             padding: 0px;
+         /* box-shadow: 3px 3px blanchedalmond; */
+         border:solid 1px white;
+              
+             .list{
+                 
+                 padding: 5px;
+                 margin-top: 2px;
+                 text-align: start;
+             }
+             .subLi{
+                 font-size: 15px;
+                 color: white;
+                 &:hover{
+                     color: rgb(0, 119, 255);
+                 }
+                 
+                 
+             }
+             
+             }   
         .desplegable{
             .list{
                 
@@ -215,34 +235,7 @@
         }
     }
 
-    .juga:hover {    
-        
-       .desplegable{ 
-        width: 100px;
-        display:block;
-        background-color: black;
-        list-style: none;
-        padding: 0px;
-    /* box-shadow: 3px 3px blanchedalmond; */
-    border:solid 1px white;
-         
-        .list{
-            
-            padding: 5px;
-            margin-top: 2px;
-            text-align: start;
-        }
-        .subLi{
-            font-size: 15px;
-            color: white;
-            
-            
-            
-        }
-        .subLi:hover{
-                color: rgb(0, 119, 255);
-            }
-        }       
+    
          
     }
 
@@ -263,7 +256,16 @@
         width: 20px;
 
     }
-   
+    .resolucion{
+        display: inline;
+    }
+    .resolucionJ{
+        margin-bottom: 200px;
+        
+    }
+    iframe{
+        display: none;
+    }
     .tamañoT{
         height: 150px;
     }

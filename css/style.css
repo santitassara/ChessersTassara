@@ -318,12 +318,6 @@ iframe {
     height: 80vh; }
   .mainJ {
     height: 80vh; }
-    .mainJ .resolucionJ {
-      margin-bottom: 200px; }
-    .mainJ .resolucion {
-      display: inline; }
-    .mainJ iframe {
-      display: none; }
   .move {
     font-size: 17px; }
   .mainQ .tamañoTQ {
@@ -338,8 +332,6 @@ iframe {
     font-weight: bolder; }
   .tamañoH2 {
     font-size: 30px; }
-  .juga .desplegable .list .subLi {
-    font-size: 15px; }
   .juga:hover .desplegable {
     width: 100px;
     display: block;
@@ -355,8 +347,10 @@ iframe {
     .juga:hover .desplegable .subLi {
       font-size: 15px;
       color: white; }
-    .juga:hover .desplegable .subLi:hover {
-      color: #0077ff; }
+      .juga:hover .desplegable .subLi:hover {
+        color: #0077ff; }
+  .juga:hover .desplegable .list .subLi {
+    font-size: 15px; }
   .titulo8 {
     font-size: 30px;
     font-weight: 30px; }
@@ -366,5 +360,11 @@ iframe {
   .tamañoAV {
     height: 15px;
     width: 20px; }
+  .resolucion {
+    display: inline; }
+  .resolucionJ {
+    margin-bottom: 200px; }
+  iframe {
+    display: none; }
   .tamañoT {
     height: 150px; } }
