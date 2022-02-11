@@ -10,19 +10,21 @@
         justify-content: end;
         align-content: space-around;
         grid-template-areas:
-          ". ."
-          ". .";
-          justify-items: center; 
-          text-align: center;
-      }
-      .tamañoT{
+        ". ."
+        ". .";
+        justify-items: center; 
+        text-align: center;
+    }
+    .tamañoT{
         height: 200px;
     }
     .tituloT{
         margin-bottom: 80px;
         
     }
-    
+    .place{
+        margin-top: 38px;
+    }
     .vinilT{
         margin-top: 50px;     
         height: 450px;
@@ -60,9 +62,6 @@
 
 }
 
-.linkPadding{
-    padding: 15px;
-}
 
 
 

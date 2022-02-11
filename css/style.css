@@ -125,7 +125,7 @@ iframe {
   height: 30px; }
 
 .linkPadding {
-  padding: 15px; }
+  padding: 0 50px; }
 
 .mainC {
   height: 800px; }
@@ -195,6 +195,8 @@ iframe {
     height: 200px; }
   .mainT .tituloT {
     margin-bottom: 80px; }
+  .mainT .place {
+    margin-top: 38px; }
   .mainT .vinilT {
     margin-top: 50px;
     height: 450px;
@@ -222,9 +224,6 @@ iframe {
     box-shadow: 0px 2px 5px 1px; }
     .mainT .linkC:hover {
       background-color: #9797be; }
-
-.linkPadding {
-  padding: 15px; }
 
 @media (max-width: 768px) {
   .container {
@@ -311,7 +310,16 @@ iframe {
     width: 250px; }
   .mainT .imantadoT {
     height: 375px;
-    width: 250px; } }
+    width: 250px; }
+  .mainT .linkC {
+    font-size: 15px;
+    border: solid 2px;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px 1px; }
+  .linkPadding {
+    padding: 15px; } }
 
 @media (max-width: 375px) {
   .mainI {
